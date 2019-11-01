@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: grey;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 5em;
+  margin: 0
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+li {
+  padding: 40px;
+  font-size: 2em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.quiz {
+  text-align: center;
+  font-size: 2em;
+  width: 60%;
+  margin-top: 100px;
+  background-color: grey;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  padding: 30px;
+}
+
+button {
+  margin: 25px;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 10px;
+}
+
+.submit {
+  width: 200px;
+  height: 75px; 
+}
+
